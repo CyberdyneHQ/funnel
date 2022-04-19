@@ -1,17 +1,8 @@
 version = 1
-test_patterns = [
-  "tests/**"
-]
-exclude_patterns = [
-  "runcypressserver.py",
-  "**/node_modules/",
-  "migrations/**/*"
-]
 
 [[analyzers]]
 name = "python"
 enabled = true
-runtime_version = "3.x.x"
 
-[analyzers.meta]
-max_line_length = 88
+  [analyzers.meta]
+  runtime_version = "3.x.x"
