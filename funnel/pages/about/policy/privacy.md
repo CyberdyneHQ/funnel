@@ -58,13 +58,13 @@ You may also be required to submit additional information about yourself, includ
 
 We collect and store information from our Users for the following purposes including but not limited to:
 
--   To render the page or service the User requested
--   For internal record keeping
--   To improve our products and services
--   To contact the User with regards to the services they have availed of
--   To contact you for promotional offers or market research purposes, with the User’s consent
--   To syndicate User’s publicly available data
--   To syndicate User’s pesonally identifiable information with Hasgeek and it’s partners
+- To render the page or service the User requested
+- For internal record keeping
+- To improve our products and services
+- To contact the User with regards to the services they have availed of
+- To contact you for promotional offers or market research purposes, with the User’s consent
+- To syndicate User’s publicly available data
+- To syndicate User’s pesonally identifiable information with Hasgeek and it’s partners
 
 ### Disclosure
 
@@ -86,16 +86,16 @@ We are committed to ensuring that User’s information is secure. In order to pr
 
 **Retrieval**
 
--   The User may request a copy of their data
--   The User cannot request a copy of this Service’s representation of User’s data
+- The User may request a copy of their data
+- The User cannot request a copy of this Service’s representation of User’s data
 
 **Opt-out and Deletion**
 
--   If User no longer wishes to receive marketing email from us, then they can unsubscribe using the unsubscribe link included in the email.
+- If User no longer wishes to receive marketing email from us, then they can unsubscribe using the unsubscribe link included in the email.
 
--   Complete withdrawal of information is not always possible as some information may persist in database backups, in messages the User has sent to other Users via our Services, or in public pages that have been reproduced by third parties without our involvement. A request for closing an Account refers to the Account being deactivated.
+- Complete withdrawal of information is not always possible as some information may persist in database backups, in messages the User has sent to other Users via our Services, or in public pages that have been reproduced by third parties without our involvement. A request for closing an Account refers to the Account being deactivated.
 
--   If a User would like to close their account, they must write to us on our [support channels](/about/contact).
+- If a User would like to close their account, they must write to us on our [support channels](/about/contact).
 
 **Transfer**
 
