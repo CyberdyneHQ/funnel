@@ -1884,35 +1884,51 @@ h6 {
 }
 .mui-btn:hover,
 .mui-btn:focus {
-  box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 0px 2px rgba(0, 0, 0, 0.12),
+    0 2px 2px rgba(0, 0, 0, 0.2);
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .mui-btn:hover,
   .mui-btn:focus {
-    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12),
-      0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow:
+      0 -1px 2px rgba(0, 0, 0, 0.12),
+      -1px 0px 2px rgba(0, 0, 0, 0.12),
+      0 0px 2px rgba(0, 0, 0, 0.12),
+      0 2px 2px rgba(0, 0, 0, 0.2);
   }
 }
 @supports (-ms-ime-align: auto) {
   .mui-btn:hover,
   .mui-btn:focus {
-    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12),
-      0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow:
+      0 -1px 2px rgba(0, 0, 0, 0.12),
+      -1px 0px 2px rgba(0, 0, 0, 0.12),
+      0 0px 2px rgba(0, 0, 0, 0.12),
+      0 2px 2px rgba(0, 0, 0, 0.2);
   }
 }
 .mui-btn:active:hover {
-  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 0px 4px rgba(0, 0, 0, 0.12),
+    1px 3px 4px rgba(0, 0, 0, 0.2);
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .mui-btn:active:hover {
-    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12),
-      0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+    box-shadow:
+      0 -1px 2px rgba(0, 0, 0, 0.12),
+      -1px 0px 2px rgba(0, 0, 0, 0.12),
+      0 0px 4px rgba(0, 0, 0, 0.12),
+      1px 3px 4px rgba(0, 0, 0, 0.2);
   }
 }
 @supports (-ms-ime-align: auto) {
   .mui-btn:active:hover {
-    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12),
-      0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+    box-shadow:
+      0 -1px 2px rgba(0, 0, 0, 0.12),
+      -1px 0px 2px rgba(0, 0, 0, 0.12),
+      0 0px 4px rgba(0, 0, 0, 0.12),
+      1px 3px 4px rgba(0, 0, 0, 0.2);
   }
 }
 .mui-btn:disabled,
@@ -1940,38 +1956,54 @@ h6 {
 
 .mui-btn--raised,
 .mui-btn--fab {
-  box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 0px 2px rgba(0, 0, 0, 0.12),
+    0 2px 2px rgba(0, 0, 0, 0.2);
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .mui-btn--raised,
   .mui-btn--fab {
-    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12),
-      0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow:
+      0 -1px 2px rgba(0, 0, 0, 0.12),
+      -1px 0px 2px rgba(0, 0, 0, 0.12),
+      0 0px 2px rgba(0, 0, 0, 0.12),
+      0 2px 2px rgba(0, 0, 0, 0.2);
   }
 }
 @supports (-ms-ime-align: auto) {
   .mui-btn--raised,
   .mui-btn--fab {
-    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12),
-      0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow:
+      0 -1px 2px rgba(0, 0, 0, 0.12),
+      -1px 0px 2px rgba(0, 0, 0, 0.12),
+      0 0px 2px rgba(0, 0, 0, 0.12),
+      0 2px 2px rgba(0, 0, 0, 0.2);
   }
 }
 .mui-btn--raised:active,
 .mui-btn--fab:active {
-  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 0px 4px rgba(0, 0, 0, 0.12),
+    1px 3px 4px rgba(0, 0, 0, 0.2);
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .mui-btn--raised:active,
   .mui-btn--fab:active {
-    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12),
-      0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+    box-shadow:
+      0 -1px 2px rgba(0, 0, 0, 0.12),
+      -1px 0px 2px rgba(0, 0, 0, 0.12),
+      0 0px 4px rgba(0, 0, 0, 0.12),
+      1px 3px 4px rgba(0, 0, 0, 0.2);
   }
 }
 @supports (-ms-ime-align: auto) {
   .mui-btn--raised:active,
   .mui-btn--fab:active {
-    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12),
-      0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+    box-shadow:
+      0 -1px 2px rgba(0, 0, 0, 0.12),
+      -1px 0px 2px rgba(0, 0, 0, 0.12),
+      0 0px 4px rgba(0, 0, 0, 0.12),
+      1px 3px 4px rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -2429,7 +2461,9 @@ h6 {
   margin-bottom: 21px;
   border-radius: 0;
   background-color: #fff;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0px 2px 0 rgba(0, 0, 0, 0.12);
+  box-shadow:
+    0 2px 2px 0 rgba(0, 0, 0, 0.16),
+    0 0px 2px 0 rgba(0, 0, 0, 0.12);
 }
 .mui-panel:before,
 .mui-panel:after {
@@ -2441,15 +2475,19 @@ h6 {
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .mui-panel {
-    box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.12),
-      -1px 0px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.16),
+    box-shadow:
+      0 -1px 2px 0 rgba(0, 0, 0, 0.12),
+      -1px 0px 2px 0 rgba(0, 0, 0, 0.12),
+      0 2px 2px 0 rgba(0, 0, 0, 0.16),
       0 0px 2px 0 rgba(0, 0, 0, 0.12);
   }
 }
 @supports (-ms-ime-align: auto) {
   .mui-panel {
-    box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.12),
-      -1px 0px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.16),
+    box-shadow:
+      0 -1px 2px 0 rgba(0, 0, 0, 0.12),
+      -1px 0px 2px 0 rgba(0, 0, 0, 0.12),
+      0 2px 2px 0 rgba(0, 0, 0, 0.16),
       0 0px 2px 0 rgba(0, 0, 0, 0.12);
   }
 }
@@ -2728,14 +2766,18 @@ h6 {
 }
 .mui-textfield--float-label > input:not(:focus).mui--is-not-empty ~ label,
 .mui-textfield--float-label
-  > input:not(:focus)[value]:not([value='']):not(.mui--is-empty):not(.mui--is-not-empty)
+  > input:not(:focus)[value]:not([value='']):not(.mui--is-empty):not(
+    .mui--is-not-empty
+  )
   ~ label,
 .mui-textfield--float-label
   > input:not(:focus):not(:empty):not(.mui--is-empty):not(.mui--is-not-empty)
   ~ label,
 .mui-textfield--float-label > textarea:not(:focus).mui--is-not-empty ~ label,
 .mui-textfield--float-label
-  > textarea:not(:focus)[value]:not([value='']):not(.mui--is-empty):not(.mui--is-not-empty)
+  > textarea:not(:focus)[value]:not([value='']):not(.mui--is-empty):not(
+    .mui--is-not-empty
+  )
   ~ label,
 .mui-textfield--float-label
   > textarea:not(:focus):not(:empty):not(.mui--is-empty):not(.mui--is-not-empty)
@@ -2826,34 +2868,50 @@ h6 {
 .mui-textfield
   > input:invalid:not(:focus):required.mui--is-empty.mui--is-touched,
 .mui-textfield
-  > input:invalid:not(:focus):required[value]:not([value='']):not(.mui--is-empty):not(.mui--is-not-empty),
+  > input:invalid:not(:focus):required[value]:not([value='']):not(
+    .mui--is-empty
+  ):not(.mui--is-not-empty),
 .mui-textfield
-  > input:invalid:not(:focus):required:not(:empty):not(.mui--is-empty):not(.mui--is-not-empty),
+  > input:invalid:not(:focus):required:not(:empty):not(.mui--is-empty):not(
+    .mui--is-not-empty
+  ),
 .mui-textfield > textarea:invalid:not(:focus):not(:required),
 .mui-textfield > textarea:invalid:not(:focus):required.mui--is-not-empty,
 .mui-textfield
   > textarea:invalid:not(:focus):required.mui--is-empty.mui--is-touched,
 .mui-textfield
-  > textarea:invalid:not(:focus):required[value]:not([value='']):not(.mui--is-empty):not(.mui--is-not-empty),
+  > textarea:invalid:not(:focus):required[value]:not([value='']):not(
+    .mui--is-empty
+  ):not(.mui--is-not-empty),
 .mui-textfield
-  > textarea:invalid:not(:focus):required:not(:empty):not(.mui--is-empty):not(.mui--is-not-empty),
+  > textarea:invalid:not(:focus):required:not(:empty):not(.mui--is-empty):not(
+    .mui--is-not-empty
+  ),
 .mui-textfield > input:not(:focus).mui--is-invalid:not(:required),
 .mui-textfield > input:not(:focus).mui--is-invalid:required.mui--is-not-empty,
 .mui-textfield
   > input:not(:focus).mui--is-invalid:required.mui--is-empty.mui--is-touched,
 .mui-textfield
-  > input:not(:focus).mui--is-invalid:required[value]:not([value='']):not(.mui--is-empty):not(.mui--is-not-empty),
+  > input:not(:focus).mui--is-invalid:required[value]:not([value='']):not(
+    .mui--is-empty
+  ):not(.mui--is-not-empty),
 .mui-textfield
-  > input:not(:focus).mui--is-invalid:required:not(:empty):not(.mui--is-empty):not(.mui--is-not-empty),
+  > input:not(:focus).mui--is-invalid:required:not(:empty):not(
+    .mui--is-empty
+  ):not(.mui--is-not-empty),
 .mui-textfield > textarea:not(:focus).mui--is-invalid:not(:required),
 .mui-textfield
   > textarea:not(:focus).mui--is-invalid:required.mui--is-not-empty,
 .mui-textfield
   > textarea:not(:focus).mui--is-invalid:required.mui--is-empty.mui--is-touched,
 .mui-textfield
-  > textarea:not(:focus).mui--is-invalid:required[value]:not([value='']):not(.mui--is-empty):not(.mui--is-not-empty),
+  > textarea:not(:focus).mui--is-invalid:required[value]:not([value='']):not(
+    .mui--is-empty
+  ):not(.mui--is-not-empty),
 .mui-textfield
-  > textarea:not(:focus).mui--is-invalid:required:not(:empty):not(.mui--is-empty):not(.mui--is-not-empty) {
+  > textarea:not(:focus).mui--is-invalid:required:not(:empty):not(
+    .mui--is-empty
+  ):not(.mui--is-not-empty) {
   border-color: #fcdcda;
   border-width: 2px;
 }
@@ -2863,17 +2921,25 @@ h6 {
 .mui-textfield
   > input:invalid:not(:focus):required.mui--is-empty.mui--is-touched,
 .mui-textfield
-  > input:invalid:not(:focus):required[value]:not([value='']):not(.mui--is-empty):not(.mui--is-not-empty),
+  > input:invalid:not(:focus):required[value]:not([value='']):not(
+    .mui--is-empty
+  ):not(.mui--is-not-empty),
 .mui-textfield
-  > input:invalid:not(:focus):required:not(:empty):not(.mui--is-empty):not(.mui--is-not-empty),
+  > input:invalid:not(:focus):required:not(:empty):not(.mui--is-empty):not(
+    .mui--is-not-empty
+  ),
 .mui-textfield > input:not(:focus).mui--is-invalid:not(:required),
 .mui-textfield > input:not(:focus).mui--is-invalid:required.mui--is-not-empty,
 .mui-textfield
   > input:not(:focus).mui--is-invalid:required.mui--is-empty.mui--is-touched,
 .mui-textfield
-  > input:not(:focus).mui--is-invalid:required[value]:not([value='']):not(.mui--is-empty):not(.mui--is-not-empty),
+  > input:not(:focus).mui--is-invalid:required[value]:not([value='']):not(
+    .mui--is-empty
+  ):not(.mui--is-not-empty),
 .mui-textfield
-  > input:not(:focus).mui--is-invalid:required:not(:empty):not(.mui--is-empty):not(.mui--is-not-empty) {
+  > input:not(:focus).mui--is-invalid:required:not(:empty):not(
+    .mui--is-empty
+  ):not(.mui--is-not-empty) {
   height: 33px;
   margin-bottom: -1px;
 }
@@ -2885,10 +2951,14 @@ h6 {
   > input:invalid:not(:focus):required.mui--is-not-empty
   ~ label,
 .mui-textfield.mui-textfield--float-label
-  > input:invalid:not(:focus):required[value]:not([value='']):not(.mui--is-empty):not(.mui--is-not-empty)
+  > input:invalid:not(:focus):required[value]:not([value='']):not(
+    .mui--is-empty
+  ):not(.mui--is-not-empty)
   ~ label,
 .mui-textfield.mui-textfield--float-label
-  > input:invalid:not(:focus):required:not(:empty):not(.mui--is-empty):not(.mui--is-not-empty)
+  > input:invalid:not(:focus):required:not(:empty):not(.mui--is-empty):not(
+    .mui--is-not-empty
+  )
   ~ label,
 .mui-textfield.mui-textfield--float-label
   > textarea:invalid:not(:focus):not(:required)
@@ -2897,10 +2967,14 @@ h6 {
   > textarea:invalid:not(:focus):required.mui--is-not-empty
   ~ label,
 .mui-textfield.mui-textfield--float-label
-  > textarea:invalid:not(:focus):required[value]:not([value='']):not(.mui--is-empty):not(.mui--is-not-empty)
+  > textarea:invalid:not(:focus):required[value]:not([value='']):not(
+    .mui--is-empty
+  ):not(.mui--is-not-empty)
   ~ label,
 .mui-textfield.mui-textfield--float-label
-  > textarea:invalid:not(:focus):required:not(:empty):not(.mui--is-empty):not(.mui--is-not-empty)
+  > textarea:invalid:not(:focus):required:not(:empty):not(.mui--is-empty):not(
+    .mui--is-not-empty
+  )
   ~ label {
   color: #fcdcda;
 }
@@ -3111,24 +3185,33 @@ h6 {
 .thumbnail,
 .control-icon,
 .jquery-modal.blocker.current .modal {
-  box-shadow: 0 1px 3px rgba(158, 158, 158, 0.12),
+  box-shadow:
+    0 1px 3px rgba(158, 158, 158, 0.12),
     0 1px 2px rgba(158, 158, 158, 0.24);
 }
 
 .mui--z2 {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow:
+    0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .mui--z3 {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .mui--z4 {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .mui--z5 {
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow:
+    0 19px 38px rgba(0, 0, 0, 0.3),
+    0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .mui--clearfix:before,
@@ -3416,7 +3499,8 @@ h6 {
 }
 .mui-ripple.mui--is-animating {
   transform: none;
-  transition: transform 0.3s cubic-bezier(0, 0, 0.2, 1),
+  transition:
+    transform 0.3s cubic-bezier(0, 0, 0.2, 1),
     width 0.3s cubic-bezier(0, 0, 0.2, 1),
     height 0.3s cubic-bezier(0, 0, 0.2, 1),
     opacity 0.3s cubic-bezier(0, 0, 0.2, 1);
@@ -3907,7 +3991,9 @@ h6 {
   border-radius: 0 16px 16px 16px;
   padding: 0;
   overflow: hidden;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 0 2px rgba(0, 0, 0, 0.12),
+    0 2px 2px rgba(0, 0, 0, 0.2);
 }
 .mui-dropdown__menu > li > a {
   padding: 8px 16px;
@@ -4487,7 +4573,8 @@ blockquote {
   margin: 8px 0 25px;
   background-color: #f5f5f5;
   border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(158, 158, 158, 0.12),
+  box-shadow:
+    0 1px 3px rgba(158, 158, 158, 0.12),
     0 1px 2px rgba(158, 158, 158, 0.24);
   position: relative;
   display: none;
@@ -4563,7 +4650,9 @@ blockquote {
   height: 20px;
   background-color: #fafafa;
   border-radius: 50%;
-  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+  box-shadow:
+    0 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -6344,7 +6433,8 @@ a.loginbutton.hidden,
   bottom: 52px;
   width: 100%;
   left: 0;
-  box-shadow: 0 1px 3px rgba(158, 158, 158, 0.12),
+  box-shadow:
+    0 1px 3px rgba(158, 158, 158, 0.12),
     0 1px 2px rgba(158, 158, 158, 0.24);
   display: none;
 }
@@ -7022,7 +7112,9 @@ a.loginbutton.hidden,
   .header--fixed .comments-sidebar {
     width: 360px;
     max-height: 90vh;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow:
+      0 0 2px rgba(0, 0, 0, 0.12),
+      0 2px 2px rgba(0, 0, 0, 0.2);
     border-radius: 16px 0 16px 16px;
     position: absolute;
     top: -100vh;
@@ -7188,7 +7280,8 @@ a.loginbutton.hidden,
   right: 0;
   z-index: 1000;
   border-bottom: none;
-  box-shadow: 0 1px 3px rgba(158, 158, 158, 0.12),
+  box-shadow:
+    0 1px 3px rgba(158, 158, 158, 0.12),
     0 1px 2px rgba(158, 158, 158, 0.24);
 }
 .sub-navbar .sub-navbar__item:nth-child(2) {
@@ -8838,7 +8931,9 @@ form.mui--bg-accent .CodeMirror {
 
 .card--spotlight:hover,
 .card--upcoming:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 @media (min-width: 1200px) {
@@ -9461,7 +9556,8 @@ form.mui--bg-accent .CodeMirror {
 @media (min-width: 768px) {
   .about .rsvp-wrapper {
     padding: 10px;
-    box-shadow: 0 1px 3px rgba(158, 158, 158, 0.12),
+    box-shadow:
+      0 1px 3px rgba(158, 158, 158, 0.12),
       0 1px 2px rgba(158, 158, 158, 0.24);
   }
 }
@@ -9830,16 +9926,27 @@ form.mui--bg-accent .CodeMirror {
   width: calc(100% - 16px);
   margin: 0px;
   padding: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
   background-color: white;
   margin: 0;
-  -webkit-transition: top 0.25s linear, z-index 0.1s step-start,
+  -webkit-transition:
+    top 0.25s linear,
+    z-index 0.1s step-start,
     opacity 0.25s linear;
-  -moz-transition: top 0.25s linear, z-index 0.1s step-start,
+  -moz-transition:
+    top 0.25s linear,
+    z-index 0.1s step-start,
     opacity 0.25s linear;
-  -ms-transition: top 0.25s linear, z-index 0.1s step-start,
+  -ms-transition:
+    top 0.25s linear,
+    z-index 0.1s step-start,
     opacity 0.25s linear;
-  -o-transition: top 0.25s linear, z-index 0.1s step-start, opacity 0.25s linear;
+  -o-transition:
+    top 0.25s linear,
+    z-index 0.1s step-start,
+    opacity 0.25s linear;
   max-width: 100%;
 }
 .label-dropdown-wrapper fieldset legend {
@@ -9849,13 +9956,26 @@ form.mui--bg-accent .CodeMirror {
   top: 0;
   z-index: 1000;
   opacity: 1;
-  -webkit-transition: top 0.25s linear, z-index 0.25s step-end,
+  -webkit-transition:
+    top 0.25s linear,
+    z-index 0.25s step-end,
     opacity 0.25s linear;
-  -moz-transition: top 0.25s linear, z-index 0.25s step-end,
+  -moz-transition:
+    top 0.25s linear,
+    z-index 0.25s step-end,
     opacity 0.25s linear;
-  -ms-transition: top 0.25s linear, z-index 0.25s step-end, opacity 0.25s linear;
-  -o-transition: top 0.25s linear, z-index 0.25s step-end, opacity 0.25s linear;
-  transition: top 0.25s linear, z-index 0.25s step-end, opacity 0.25s linear;
+  -ms-transition:
+    top 0.25s linear,
+    z-index 0.25s step-end,
+    opacity 0.25s linear;
+  -o-transition:
+    top 0.25s linear,
+    z-index 0.25s step-end,
+    opacity 0.25s linear;
+  transition:
+    top 0.25s linear,
+    z-index 0.25s step-end,
+    opacity 0.25s linear;
 }
 .label-dropdown-wrapper .listwidget .mui-textfield {
   margin-bottom: 0;
