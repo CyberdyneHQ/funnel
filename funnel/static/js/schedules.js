@@ -60,9 +60,7 @@ $(function () {
             $(this)
               .children()
               .each(function (index) {
-                $(this)
-                  .children('input[name$="seq"]')
-                  .val(++index);
+                $(this).children('input[name$="seq"]').val(++index);
               });
           },
         });
@@ -101,24 +99,25 @@ $(function () {
                 ).val(),
                 rooms: [],
               };
-              $('input[data-venue="' + venue + '"]').each(function (
-                index,
-                element
-              ) {
-                if ($(element).attr('name') === 'room-uuidb58') {
-                  var roomUuidB58 = $(element).val();
-                  var room = {
-                    uuid_b58: roomUuidB58,
-                    seq: $(
-                      'input[name="room-seq"][data-room="' + roomUuidB58 + '"]'
-                    ).val(),
-                    color: $(
-                      'input[name="color"][data-room="' + roomUuidB58 + '"]'
-                    ).val(),
-                  };
-                  json[venue]['rooms'].push(room);
+              $('input[data-venue="' + venue + '"]').each(
+                function (index, element) {
+                  if ($(element).attr('name') === 'room-uuidb58') {
+                    var roomUuidB58 = $(element).val();
+                    var room = {
+                      uuid_b58: roomUuidB58,
+                      seq: $(
+                        'input[name="room-seq"][data-room="' +
+                          roomUuidB58 +
+                          '"]'
+                      ).val(),
+                      color: $(
+                        'input[name="color"][data-room="' + roomUuidB58 + '"]'
+                      ).val(),
+                    };
+                    json[venue]['rooms'].push(room);
+                  }
                 }
-              });
+              );
             });
             $.ajax({
               url: SETTINGS_UPDATE_URL,
