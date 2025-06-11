@@ -166,7 +166,6 @@ class PasswordPolicyForm(forms.Form):
         ],
     )
 
-
 @User.forms('password_reset_request')
 class PasswordResetRequestForm(forms.RecaptchaForm):
     username = forms.StringField(
@@ -174,6 +173,12 @@ class PasswordResetRequestForm(forms.RecaptchaForm):
         validators=[forms.validators.DataRequired()],
         widget_attrs={'autocorrect': 'none', 'autocapitalize': 'none'},
     )
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.user = None
+
+    def validate_username(self, field):
 
     def validate_username(self, field):
         user = getuser(field.data)
